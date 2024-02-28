@@ -1,0 +1,192 @@
+2024-02-15T23:45:40.963160+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:41.096971+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:41.244823+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:41.395412+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:41.542498+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:41.680838+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:41.809901+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:41.962053+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:42.109702+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:42.247748+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:42.373713+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:42.495642+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:42.626287+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:42.760081+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:42.894679+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:43.031968+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:43.160344+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:43.297668+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:43.429426+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:43.563010+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:43.695052+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:43.830681+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:43.961463+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:44.097140+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:44.230550+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:44.362564+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:44.492863+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:44.629548+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:44.763895+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:44.893325+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:45.028402+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:45.161315+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:45.295177+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:45.437000+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:45.560419+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:45.697334+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:45.834237+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:45.970552+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:46.089217+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:46.199750+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:46.315075+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:46.422136+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:46.534850+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:46.653340+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:46.792096+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:46.967903+0900 INFO Model have fitted 2 lanes
+2024-02-15T23:45:46.968356+0900 INFO Fitted 2-order lane 1 curve param: [ 9.00380084e-03 -9.17836851e+00  2.74257516e+03]
+2024-02-15T23:45:46.968595+0900 INFO Fitted 2-order lane 2 curve param: [-8.61573650e-04  1.25408552e+00 -2.83435251e+01]
+2024-02-15T23:45:47.144038+0900 INFO Model have fitted 1 lanes
+2024-02-15T23:45:47.144402+0900 INFO Fitted 2-order lane 1 curve param: [-5.24118110e-03  6.13386398e+00 -1.38515577e+03]
+2024-02-15T23:45:47.316015+0900 INFO Model have fitted 1 lanes
+2024-02-15T23:45:47.316379+0900 INFO Fitted 2-order lane 1 curve param: [-8.87784883e-03  1.02346036e+01 -2.54085429e+03]
+2024-02-15T23:45:47.493430+0900 INFO Model have fitted 1 lanes
+2024-02-15T23:45:47.493782+0900 INFO Fitted 2-order lane 1 curve param: [-4.39103766e-03  5.28963760e+00 -1.17845896e+03]
+2024-02-15T23:45:47.681728+0900 INFO Model have fitted 1 lanes
+2024-02-15T23:45:47.682073+0900 INFO Fitted 2-order lane 1 curve param: [-1.67480468e-02  1.91922845e+01 -5.08674778e+03]
+2024-02-15T23:45:47.873131+0900 INFO Model have fitted 1 lanes
+2024-02-15T23:45:47.873474+0900 INFO Fitted 2-order lane 1 curve param: [-1.39697567e-02  1.62627829e+01 -4.32018267e+03]
+2024-02-15T23:45:48.087667+0900 INFO Model have fitted 2 lanes
+2024-02-15T23:45:48.088034+0900 INFO Fitted 2-order lane 1 curve param: [-5.56607312e-02  5.89595679e+01 -1.53030679e+04]
+2024-02-15T23:45:48.088256+0900 INFO Fitted 2-order lane 2 curve param: [-9.26518614e-03  1.09373860e+01 -2.81528080e+03]
+2024-02-15T23:45:48.291504+0900 INFO Model have fitted 2 lanes
+2024-02-15T23:45:48.291840+0900 INFO Fitted 2-order lane 1 curve param: [-5.47697539e-02  5.83599209e+01 -1.52338525e+04]
+2024-02-15T23:45:48.292060+0900 INFO Fitted 2-order lane 2 curve param: [-8.43682624e-03  1.00503321e+01 -2.58065301e+03]
+2024-02-15T23:45:48.513048+0900 INFO Model have fitted 2 lanes
+2024-02-15T23:45:48.513585+0900 INFO Fitted 2-order lane 1 curve param: [-3.70870292e-02  4.00222128e+01 -1.04879285e+04]
+2024-02-15T23:45:48.513804+0900 INFO Fitted 2-order lane 2 curve param: [-1.50600668e-02  1.78593133e+01 -4.88285880e+03]
+2024-02-15T23:45:48.710492+0900 INFO Model have fitted 1 lanes
+2024-02-15T23:45:48.710826+0900 INFO Fitted 2-order lane 1 curve param: [-1.32656402e-02  1.58971227e+01 -4.35227238e+03]
+2024-02-15T23:45:48.941507+0900 INFO Model have fitted 2 lanes
+2024-02-15T23:45:48.941861+0900 INFO Fitted 2-order lane 1 curve param: [-1.80681208e-02  1.91842856e+01 -4.79157985e+03]
+2024-02-15T23:45:48.942092+0900 INFO Fitted 2-order lane 2 curve param: [-1.39227998e-02  1.67262119e+01 -4.61302858e+03]
+2024-02-15T23:45:49.141942+0900 INFO Model have fitted 1 lanes
+2024-02-15T23:45:49.142285+0900 INFO Fitted 2-order lane 1 curve param: [-1.72089182e-02  2.06989461e+01 -5.81413165e+03]
+2024-02-15T23:45:49.338701+0900 INFO Model have fitted 1 lanes
+2024-02-15T23:45:49.339054+0900 INFO Fitted 2-order lane 1 curve param: [-1.93449989e-02  2.33036888e+01 -6.60820702e+03]
+2024-02-15T23:45:49.521501+0900 INFO Model have fitted 1 lanes
+2024-02-15T23:45:49.521955+0900 INFO Fitted 2-order lane 1 curve param: [-1.73435419e-02  2.09704822e+01 -5.92988702e+03]
+2024-02-15T23:45:49.684630+0900 INFO Model have fitted 1 lanes
+2024-02-15T23:45:49.684971+0900 INFO Fitted 2-order lane 1 curve param: [-4.35220930e-03  5.59167396e+00 -1.38313325e+03]
+2024-02-15T23:45:49.848957+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:50.036530+0900 INFO Model have fitted 1 lanes
+2024-02-15T23:45:50.037130+0900 INFO Fitted 2-order lane 1 curve param: [-3.50155111e-03  4.66136816e+00 -1.13437719e+03]
+2024-02-15T23:45:50.213305+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:50.391678+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:50.546396+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:50.660545+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:50.774932+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:50.888750+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:50.986902+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:51.079679+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:51.178137+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:51.279631+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:51.374782+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:51.475437+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:51.570282+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:51.657099+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:51.738157+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:51.821577+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:51.903175+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:51.989004+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:52.070308+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:52.153596+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:52.236557+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:52.320825+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:52.407151+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:52.488368+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:52.573580+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:52.657928+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:52.756112+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:52.842183+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:52.942433+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:53.039256+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:53.121927+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:53.202926+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:53.286942+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:53.371774+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:53.453320+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:53.538993+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:53.620779+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:53.710236+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:53.816443+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:53.905795+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:53.990115+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:54.074513+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:54.158267+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:54.241582+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:54.323080+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:54.405956+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:54.490817+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:54.573975+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:54.658808+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:54.739786+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:54.824572+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-15T23:45:54.913148+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:55.013322+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:55.111029+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:55.210276+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:55.313008+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:55.415177+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:55.514441+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:55.616216+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:55.717622+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:55.812828+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:55.917986+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:56.017577+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:56.117266+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:56.220781+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:56.326011+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:56.443196+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:56.557569+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:56.686622+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:56.807423+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:56.943197+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:57.077093+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:57.212758+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:57.363521+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:57.499564+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:57.644242+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:57.845164+0900 INFO Model have fitted 1 lanes
+2024-02-15T23:45:57.845515+0900 INFO Fitted 2-order lane 1 curve param: [-2.00324070e-04  7.46301022e-01  4.02865190e+01]
+2024-02-15T23:45:58.032835+0900 INFO Model have fitted 1 lanes
+2024-02-15T23:45:58.033188+0900 INFO Fitted 2-order lane 1 curve param: [-3.32309846e-04  8.69298871e-01  1.14958565e+01]
+2024-02-15T23:45:58.218704+0900 INFO Model have fitted 1 lanes
+2024-02-15T23:45:58.219131+0900 INFO Fitted 2-order lane 1 curve param: [-3.53322469e-04  8.83753188e-01  9.63430044e+00]
+2024-02-15T23:45:58.370734+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:58.510654+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:58.665762+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:58.810931+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:58.947810+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:59.080518+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:59.211977+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:59.346933+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:59.481613+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:59.612765+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:59.748852+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:45:59.880759+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:46:00.015848+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:46:00.156201+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:46:00.293357+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:46:00.438718+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:46:00.630004+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:46:00.778575+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:46:00.928166+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:46:01.071511+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:46:01.211205+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:46:01.355793+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:46:01.490195+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:46:01.658086+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:46:01.795684+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:46:01.945235+0900 INFO Model have fitted 0 lanes
+2024-02-15T23:46:02.093146+0900 INFO Model have fitted 0 lanes

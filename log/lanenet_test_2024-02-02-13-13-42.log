@@ -1,0 +1,62 @@
+2024-02-02T13:14:25.409160+0900 INFO Single imgae inference cost time: 0.07190s
+2024-02-02T13:14:25.439108+0900 INFO Model have fitted 0 lanes
+2024-02-02T13:15:07.064148+0900 INFO Single imgae inference cost time: 0.08248s
+2024-02-02T13:15:07.095478+0900 INFO Model have fitted 0 lanes
+2024-02-02T13:15:50.636798+0900 INFO Single imgae inference cost time: 0.08638s
+2024-02-02T13:15:50.663582+0900 INFO Model have fitted 0 lanes
+2024-02-02T13:16:34.072269+0900 INFO Single imgae inference cost time: 0.08586s
+2024-02-02T13:16:34.100712+0900 INFO Model have fitted 0 lanes
+2024-02-02T13:17:15.420606+0900 INFO Single imgae inference cost time: 0.08187s
+2024-02-02T13:17:15.450305+0900 INFO Model have fitted 0 lanes
+2024-02-02T13:18:00.164787+0900 INFO Single imgae inference cost time: 0.08865s
+2024-02-02T13:18:00.192201+0900 INFO Model have fitted 0 lanes
+2024-02-02T13:18:43.951720+0900 INFO Single imgae inference cost time: 0.08664s
+2024-02-02T13:18:43.980165+0900 INFO Model have fitted 0 lanes
+2024-02-02T13:19:25.688128+0900 INFO Single imgae inference cost time: 0.08256s
+2024-02-02T13:19:25.706343+0900 INFO Model have fitted 0 lanes
+2024-02-02T13:20:09.852462+0900 INFO Single imgae inference cost time: 0.08735s
+2024-02-02T13:20:09.871155+0900 INFO Model have fitted 0 lanes
+2024-02-02T13:20:54.019654+0900 INFO Single imgae inference cost time: 0.08739s
+2024-02-02T13:20:54.040596+0900 INFO Model have fitted 0 lanes
+2024-02-02T13:21:36.603498+0900 INFO Single imgae inference cost time: 0.08416s
+2024-02-02T13:21:36.622250+0900 INFO Model have fitted 0 lanes
+2024-02-02T13:22:20.926659+0900 INFO Single imgae inference cost time: 0.08759s
+2024-02-02T13:22:20.951201+0900 INFO Model have fitted 0 lanes
+2024-02-02T13:23:05.372822+0900 INFO Single imgae inference cost time: 0.08786s
+2024-02-02T13:23:05.389138+0900 INFO Model have fitted 0 lanes
+2024-02-02T13:23:47.387336+0900 INFO Single imgae inference cost time: 0.08297s
+2024-02-02T13:23:47.405666+0900 INFO Model have fitted 0 lanes
+2024-02-02T13:24:30.437597+0900 INFO Single imgae inference cost time: 0.08502s
+2024-02-02T13:24:30.462843+0900 INFO Model have fitted 0 lanes
+2024-02-02T13:25:13.839399+0900 INFO Single imgae inference cost time: 0.08565s
+2024-02-02T13:25:13.861602+0900 INFO Model have fitted 0 lanes
+2024-02-02T13:25:56.859467+0900 INFO Single imgae inference cost time: 0.08488s
+2024-02-02T13:25:56.896390+0900 INFO Model have fitted 0 lanes
+2024-02-02T13:26:42.272668+0900 INFO Single imgae inference cost time: 0.08962s
+2024-02-02T13:26:42.318964+0900 INFO Model have fitted 0 lanes
+2024-02-02T13:27:25.734650+0900 INFO Single imgae inference cost time: 0.08572s
+2024-02-02T13:27:25.762329+0900 INFO Model have fitted 0 lanes
+2024-02-02T13:28:10.390914+0900 INFO Single imgae inference cost time: 0.08810s
+2024-02-02T13:28:10.415382+0900 INFO Model have fitted 0 lanes
+2024-02-02T13:28:54.807836+0900 INFO Single imgae inference cost time: 0.08763s
+2024-02-02T13:28:54.834753+0900 INFO Model have fitted 0 lanes
+2024-02-02T13:29:38.373306+0900 INFO Single imgae inference cost time: 0.08589s
+2024-02-02T13:29:38.394411+0900 INFO Model have fitted 0 lanes
+2024-02-02T13:30:19.543396+0900 INFO Single imgae inference cost time: 0.08110s
+2024-02-02T13:30:19.552773+0900 INFO Model have fitted 0 lanes
+2024-02-02T13:31:03.156255+0900 INFO Single imgae inference cost time: 0.08598s
+2024-02-02T13:31:03.164926+0900 INFO Model have fitted 0 lanes
+2024-02-02T13:31:48.426782+0900 INFO Single imgae inference cost time: 0.08933s
+2024-02-02T13:31:48.437551+0900 INFO Model have fitted 0 lanes
+2024-02-02T13:32:33.534781+0900 INFO Single imgae inference cost time: 0.08892s
+2024-02-02T13:32:33.544772+0900 INFO Model have fitted 0 lanes
+2024-02-02T13:33:15.932057+0900 INFO Single imgae inference cost time: 0.08352s
+2024-02-02T13:33:15.941382+0900 INFO Model have fitted 0 lanes
+2024-02-02T13:34:00.141695+0900 INFO Single imgae inference cost time: 0.08712s
+2024-02-02T13:34:00.160176+0900 INFO Model have fitted 0 lanes
+2024-02-02T13:34:43.388310+0900 INFO Single imgae inference cost time: 0.08487s
+2024-02-02T13:34:43.398098+0900 INFO Model have fitted 0 lanes
+2024-02-02T13:35:26.493216+0900 INFO Single imgae inference cost time: 0.08488s
+2024-02-02T13:35:26.514746+0900 INFO Model have fitted 0 lanes
+2024-02-02T13:36:09.347007+0900 INFO Single imgae inference cost time: 0.08433s
+2024-02-02T13:36:09.349842+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.

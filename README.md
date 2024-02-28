@@ -1,362 +1,272 @@
-# Gym-Duckietown
+# LaneNet-Lane-Detection
+Use tensorflow to implement a Deep Neural Network for real time lane detection mainly based on the IEEE IV conference 
+paper "Towards End-to-End Lane Detection: an Instance Segmentation Approach".You can refer to their paper for details 
+https://arxiv.org/abs/1802.05591. This model consists of a encoder-decoder stage, binary semantic segmentation stage 
+and instance semantic segmentation using discriminative loss function for real time lane detection task.
 
-[![Build Status](https://circleci.com/gh/duckietown/gym-duckietown/tree/master.svg?style=shield)](https://circleci.com/gh/duckietown/gym-duckietown/tree/master) [![Docker Hub](https://img.shields.io/docker/pulls/duckietown/gym-duckietown.svg)](https://hub.docker.com/r/duckietown/gym-duckietown)
+The main network architecture is as follows:
 
-
-[Duckietown](http://duckietown.org/) self-driving car simulator environments for OpenAI Gym.
-
-Please use this bibtex if you want to cite this repository in your publications:
-
-```
-@misc{gym_duckietown,
-  author = {Chevalier-Boisvert, Maxime and Golemo, Florian and Cao, Yanjun and Mehta, Bhairav and Paull, Liam},
-  title = {Duckietown Environments for OpenAI Gym},
-  year = {2018},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/duckietown/gym-duckietown}},
-}
-```
-
-This simulator was created as part of work done at [Mila](https://mila.quebec/).
-
-<p align="center">
-<img src="media/simplesim_free.png" width="300px"><br>
-</p>
-
-<h2 align="center">
-Welcome to <b>Duckietown</b>!
-</h2>
-
-## Introduction
-
-Gym-Duckietown is a simulator for the [Duckietown](https://duckietown.org) Universe, written in pure Python/OpenGL (Pyglet). It places your agent, a Duckiebot, inside of an instance of a Duckietown: a loop of roads with turns, intersections, obstacles, Duckie pedestrians, and other Duckiebots. It can be a pretty hectic place!
-
-Gym-Duckietown is fast, open, and incredibly customizable. What started as a lane-following simulator has evolved into a fully-functioning autonomous driving simulator that you can use to train and test your Machine Learning, Reinforcement Learning, Imitation Learning, or even classical robotics algorithms. Gym-Duckietown offers a wide range of tasks, from simple lane-following to full city navigation with dynamic obstacles. Gym-Duckietown also ships with features, wrappers, and tools that can help you bring your algorithms to the real robot, including [domain-randomization](https://blog.openai.com/spam-detection-in-the-physical-world/), accurate camera distortion, and differential-drive physics (and most importantly, realistic waddling).
-
-<p align="center">
-<img src="media/finalmain.gif"><br>
-</p>
-
-There are multiple registered gym environments, each corresponding to a different [map file](https://github.com/duckietown/gym-duckietown/tree/master/gym_duckietown/maps):
-- `Duckietown-straight_road-v0`
-- `Duckietown-4way-v0`
-- `Duckietown-udem1-v0`
-- `Duckietown-small_loop-v0`
-- `Duckietown-small_loop_cw-v0`
-- `Duckietown-zigzag_dists-v0`
-- `Duckietown-loop_obstacles-v0` (static obstacles in the road)
-- `Duckietown-loop_pedestrians-v0` (moving obstacles in the road)
-
-The `MultiMap-v0` environment is essentially a [wrapper](https://github.com/duckietown/gym-duckietown/blob/master/gym_duckietown/envs/multimap_env.py) for the simulator which
-will automatically cycle through all available [map files](https://github.com/duckietown/gym-duckietown/tree/master/gym_duckietown/maps). This makes it possible to train on
-a variety of different maps at the same time, with the idea that training on a variety of
-different scenarios will make for a more robust policy/model.
-
-`gym-duckietown` is an _accompanying_ simulator to real Duckiebots, which allow you to run your code on the real robot. We provide a domain randomization API, which can help you transfer your trained policies from simulation to real world. Without using a domain transfer method, your learned models will likely overfit to various aspects of the simulator, which won't transfer to the real world. When you deploy, you and your Duckiebot will be running around in circles trying to figure out what's going on.
-
-<p align="center">
-<img src="media/domainrand-sim.gif" width="300px" height="200px" ><img src="media/needfordr.gif" width="300px" height="200px" ><br>
-</p>
-
-The recommended way to test your model on the real hardware is to use [one of the AI Driving Olympics templates](https://docs-old.duckietown.org/daffy/AIDO/out/embodied.html). 
-We have some baseline RL implementations that also may be useful for this purpose, 
-[one that is standalone](https://docs-old.duckietown.org/daffy/AIDO/out/embodied_rl.html), and 
-[one that is based on Residual Policy Learning and integrates with ROS](https://docs-old.duckietown.org/daffy/AIDO/out/embodied_rpl.html). 
-
-<!--The `Duckiebot-v0` environment is meant to connect to software running on
-a real Duckiebot and remotely control the robot. It is a tool to test that policies
-trained in simulation can transfer to the real robot. If you want to
-control your robot remotely with the `Duckiebot-v0` environment, you will need to
-install the software found in the [duck-remote-iface](https://github.com/maximecb/duck-remote-iface)
-repository on your Duckiebot.
--->
-
-<p align="center">
-<img src="media/duckiebot_1.png" width="300px"><br>
-Duckiebot-v0
-</p>
+`Network Architecture`
+![NetWork_Architecture](./data/source_image/network_architecture.png)
 
 ## Installation
-
-Requirements:
-- Python 3.6+
-- OpenAI gym
-- NumPy
-- Pyglet
-- PyYAML
-- PyTorch
-
-You can install all the dependencies except PyTorch with `pip3`:
+This software has only been tested on ubuntu 16.04(x64), python3.5, cuda-9.0, cudnn-7.0 with a GTX-1070 GPU. 
+To install this software you need tensorflow 1.12.0 and other version of tensorflow has not been tested but I think 
+it will be able to work properly in tensorflow above version 1.12. Other required package you may install them by
 
 ```
-git clone https://github.com/duckietown/gym-duckietown.git
-cd gym-duckietown
-pip3 install -e .
+pip3 install -r requirements.txt
 ```
 
-Reinforcement learning code forked from [this repository](https://github.com/ikostrikov/pytorch-a2c-ppo-acktr)
-is included under [/pytorch_rl](/pytorch_rl). If you wish to use this code, you
-should install [PyTorch](http://pytorch.org/).
+## Test model
+In this repo I uploaded a model trained on tusimple lane dataset [Tusimple_Lane_Detection](http://benchmark.tusimple.ai/#/).
+The deep neural network inference part can achieve around a 50fps which is similar to the description in the paper. But
+the input pipeline I implemented now need to be improved to achieve a real time lane detection system.
 
-### Installation Using Conda (Alternative Method)
+The trained lanenet model weights files are stored in 
+[lanenet_pretrained_model](https://www.dropbox.com/sh/0b6r0ljqi76kyg9/AADedYWO3bnx4PhK1BmbJkJKa?dl=0). You can 
+download the model and put them in folder weights/tusimple_lanenet/
 
-Alternatively, you can install all the dependencies, including PyTorch, using Conda as follows. For those trying to use this package on MILA machines, this is the way to go:
+You may also download the pretrained model via [BaiduNetDisk here](https://pan.baidu.com/s/1sLLSE1CWksKNxmRIGaQn_A) and
+extract code is `86sd`.
 
-```
-git clone https://github.com/duckietown/gym-duckietown.git
-cd gym-duckietown
-conda env create -f environment.yaml
-```
-
-Please note that if you use Conda to install this package instead of pip, you will need to activate your Conda environment and add the package to your Python path before you can use it:
+You can test a single image on the trained model as follows
 
 ```
-source activate gym-duckietown
-export PYTHONPATH="${PYTHONPATH}:`pwd`"
+python tools/test_lanenet.py --weights_path /PATH/TO/YOUR/CKPT_FILE_PATH 
+--image_path ./data/tusimple_test_image/0.jpg
 ```
+The results are as follows:
 
-### Docker Image
+`Test Input Image`
 
-There is a pre-built Docker image available [on Docker Hub](https://hub.docker.com/r/duckietown/gym-duckietown), which also contains an installation of PyTorch.
+![Test Input](./data/tusimple_test_image/0.jpg)
 
-*Note that in order to get GPU acceleration, you should install and use [nvidia-docker 2.0](https://github.com/nvidia/nvidia-docker/wiki/Installation-(version-2.0)).*
+`Test Lane Mask Image`
 
-To get started, pull the `duckietown/gym-duckietown` image from Docker Hub and open a shell in the container:
+![Test Lane_Mask](./data/source_image/lanenet_mask_result.png)
 
+`Test Lane Binary Segmentation Image`
+
+![Test Lane_Binary_Seg](./data/source_image/lanenet_binary_seg.png)
+
+`Test Lane Instance Segmentation Image`
+
+![Test Lane_Instance_Seg](./data/source_image/lanenet_instance_seg.png)
+
+If you want to evaluate the model on the whole tusimple test dataset you may call
 ```
-nvidia-docker pull duckietown/gym-duckietown && \
-nvidia-docker run -it duckietown/gym-duckietown bash
+python tools/evaluate_lanenet_on_tusimple.py 
+--image_dir ROOT_DIR/TUSIMPLE_DATASET/test_set/clips 
+--weights_path /PATH/TO/YOUR/CKPT_FILE_PATH 
+--save_dir ROOT_DIR/TUSIMPLE_DATASET/test_set/test_output
 ```
+If you set the save_dir argument the result will be saved in that folder 
+or the result will not be saved but be 
+displayed during the inference process holding on 3 seconds per image. 
+I test the model on the whole tusimple lane 
+detection dataset and make it a video. You may catch a glimpse of it bellow.
 
-Then create a virtual display:
+`Tusimple test dataset gif`
+![tusimple_batch_test_gif](./data/source_image/lanenet_batch_test.gif)
 
-```
-Xvfb :0 -screen 0 1024x768x24 -ac +extension GLX +render -noreset &> xvfb.log &
-export DISPLAY=:0
-```
+## Train your own model
+#### Data Preparation
+Firstly you need to organize your training data refer to the data/training_data_example folder structure. And you need 
+to generate a train.txt and a val.txt to record the data used for training the model. 
 
-Now, you are ready to start training a policy using RL:
+The training samples consist of three components, a binary segmentation label file, a instance segmentation label
+file and the original image. The binary segmentation uses 255 to represent the lane field and 0 for the rest. The 
+instance use different pixel value to represent different lane field and 0 for the rest.
 
-```
-python3 pytorch_rl/main.py \
-        --algo a2c \
-        --env-name Duckietown-loop_obstacles-v0 \
-        --lr 0.0002 \
-        --max-grad-norm 0.5 \
-        --no-vis \
-        --num-steps 20
-```
+All your training image will be scaled into the same scale according to the config file.
 
-If you need to do so, you can build a Docker image by running the following command from the root directory of this repository:
-
-```
-docker build . \
-       --file ./docker/standalone/Dockerfile \
-       --no-cache=true \
-       --network=host \
-       --tag <YOUR_TAG_GOES_HERE>
-```
-
-## Usage
-
-### Testing
-
-There is a simple UI application which allows you to control the simulation or real robot manually. The `manual_control.py` application will launch the Gym environment, display camera images and send actions (keyboard commands) back to the simulator or robot. You can specify which map file to load with the `--map-name` argument:
+Use the script here to generate the tensorflow records file
 
 ```
-./manual_control.py --env-name Duckietown-udem1-v0
+python tools/make_tusimple_tfrecords.py 
 ```
 
-There is also a script to run automated tests (`run_tests.py`) and a script to gather performance metrics (`benchmark.py`).
-
-### Reinforcement Learning
-
-To train a reinforcement learning agent, you can use the code provided under [/pytorch_rl](/pytorch_rl). I recommend using the A2C or ACKTR algorithms. A sample command to launch training is:
-
-```
-python3 pytorch_rl/main.py --no-vis --env-name Duckietown-small_loop-v0 --algo a2c --lr 0.0002 --max-grad-norm 0.5 --num-steps 20
-```
-
-Then, to visualize the results of training, you can run the following command. Note that you can do this while the training process is still running. Also note that if you are running this through SSH, you will need to enable X forwarding to get a display:
+#### Train model
+In my experiment the training epochs are 80010, batch size is 4, initialized learning rate is 0.001 and use polynomial 
+decay with power 0.9. About training parameters you can check the global_configuration/config.py for details. 
+You can switch --net argument to change the base encoder stage. If you choose --net vgg then the vgg16 will be used as 
+the base encoder stage and a pretrained parameters will be loaded. And you can modified the training 
+script to load your own pretrained parameters or you can implement your own base encoder stage. 
+You may call the following script to train your own model
 
 ```
-python3 pytorch_rl/enjoy.py --env-name Duckietown-small_loop-v0 --num-stack 1 --load-dir trained_models/a2c
+python tools/train_lanenet_tusimple.py 
 ```
 
-### Imitation Learning
+You may monitor the training process using tensorboard tools
 
-There is a script in the `experiments` directory which automatically generates a dataset of synthetic demonstrations. It uses hillclimbing to optimize the reward obtained, and outputs a JSON file:
+During my experiment the `Total loss` drops as follows:  
+![Training loss](./data/source_image/total_loss.png)
 
-```
-experiments/gen_demos.py --map-name loop_obstacles
-```
+The `Binary Segmentation loss` drops as follows:  
+![Training binary_seg_loss](./data/source_image/binary_seg_loss.png)
 
-Then you can start training an imitation learning model (conv net) with:
+The `Instance Segmentation loss` drops as follows:  
+![Training instance_seg_loss](./data/source_image/instance_seg_loss.png)
 
-```
-experiments/train_imitation.py --map-name loop_obstacles
-```
+## Experiment
+The accuracy during training process rises as follows: 
+![Training accuracy](./data/source_image/accuracy.png)
 
-Finally, you can visualize what the trained model is doing with:
+Please cite my repo [lanenet-lane-detection](https://github.com/MaybeShewill-CV/lanenet-lane-detection) if you use it.
 
-```
-experiments/control_imitation.py --map-name loop_obstacles
-```
+## Segment-Anything-U-Specify
 
-Note that it is possible to have `gen_demos.py` and `train_imitate.py` running simultaneously, so that training takes place while new demonstrations are being generated. You can also run `control_imitate.py` periodically during training to check on learning progress.
+You must be interested in recently released SAM model. Here's a repo using clip + sam to segment any instances you specify.
+[segment-anything-u-specify](https://github.com/MaybeShewill-CV/segment-anything-u-specify).
 
-## Design
+<p align="left">
+  <img src='./data/source_image/sam_clip_seg.png' alt='segment-anything-u-specify'>
+</p>
 
-### Map File Format
+## Serve Your Model
 
-The simulator supports a YAML-based file format which is designed to be easy to hand edit. See the [maps subdirectory](https://github.com/duckietown/gym-duckietown/blob/master/gym_duckietown/maps) for examples. Each map file has two main sections: a two-dimensional array of tiles, and a listing of objects to be placed around the map. The tiles are based on the [Duckietown appearance specification](https://docs.duckietown.org/daffy/opmanual_duckietown/out/duckietown_specs.html).
+If you want to serve your model via a web server you may be interested in [mortred_model_server](https://github.com/MaybeShewill-CV/mortred_model_server) which is a high performace web server for DNN vision models  :fire::fire::fire:
 
-The available tile types are:
-- empty
-- straight
-- curve_left
-- curve_right
-- 3way_left (3-way intersection)
-- 3way_right
-- 4way (4-way intersection)
-- asphalt
-- grass
-- floor (office floor)
+<p align="left">
+  <img src='./data/source_image/mortred_model_server.png' alt='mortred_model_server'>
+</p>
 
-The available object types are:
-- barrier
-- cone (traffic cone)
-- duckie
-- duckiebot (model of a Duckietown robot)
-- tree
-- house
-- truck (delivery-style truck)
-- bus
-- building (multi-floor building)
-- sign_stop, sign_T_intersect, sign_yield, etc. (see [meshes subdirectory](https://github.com/duckietown/gym-duckietown/blob/master/gym_duckietown/meshes))
+## Recently updates 2018.11.10
+Adjust some basic cnn op according to the new tensorflow api. Use the 
+traditional SGD optimizer to optimize the whole model instead of the
+origin Adam optimizer used in the origin paper. I have found that the
+SGD optimizer will lead to more stable training process and will not 
+easily stuck into nan loss which may often happen when using the origin
+code.
 
-Although the environment is rendered in 3D, the map is essentially two-dimensional. As such, objects coordinates are specified along two axes. The coordinates are rescaled based on the tile size, such that coordinates [0.5, 1.5] would mean middle of the first column of tiles, middle of the second row. Objects can have an `optional` flag set, which means that they randomly may or may not appear during training, as a form of domain randomization.
+## Recently updates 2018.12.13
+Since a lot of user want a automatic tools to generate the training samples
+from the Tusimple Dataset. I upload the tools I use to generate the training
+samples. You need to firstly download the Tusimple dataset and unzip the 
+file to your local disk. Then run the following command to generate the 
+training samples and the train.txt file.
 
-### Observations
-
-The observations are single camera images, as numpy arrays of size (120, 160, 3). These arrays contain unsigned 8-bit integer values in the [0, 255] range.
-This image size was chosen because it is exactly one quarter of the 640x480 image resolution provided by the camera, which makes it fast and easy to scale down
-the images. The choice of 8-bit integer values over floating-point values was made because the resulting images are smaller if stored on disk and faster to send over a networked connection.
-
-### Actions
-
-The simulator uses continuous actions by default. Actions passed to the `step()` function should be numpy arrays containining two numbers between -1 and 1. These two numbers correspond to forward velocity, and a steering angle, respectively. A positive velocity makes the robot go forward, and a positive steering angle makes the robot turn left. There is also a [Gym wrapper class](https://github.com/duckietown/gym-duckietown/blob/master/gym_duckietown/wrappers.py) named `DiscreteWrapper` which allows you to use discrete actions (turn left, move forward, turn right) instead of continuous actions if you prefer.
-
-### Reward Function
-
-The default reward function tries to encourage the agent to drive forward along the right lane in each tile. Each tile has an associated bezier curve defining the path the agent is expected to follow. The agent is rewarded for being as close to the curve as possible, and also for facing the same direction as the curve's tangent. The episode is terminated if the agent gets too far outside of a drivable tile, or if the `max_steps` parameter is exceeded. See the `step` function in [this source file](https://github.com/duckietown/gym-duckietown/blob/master/gym_duckietown/envs/simplesim_env.py).
-
-## Troubleshooting
-
-If you run into problems of any kind, don't hesitate to [open an issue](https://github.com/duckietown/gym-duckietown/issues) on this repository. It's quite possible that you've run into some bug we aren't aware of. Please make sure to give some details about your system configuration (ie: PC or Max, operating system), and to paste the command you used to run the simulator, as well as the complete error message that was produced, if any.
-
-### ImportError: Library "GLU" not found
-
-You may need to manually install packaged needed by Pyglet or OpenAI Gym on your system. The command you need to use will vary depending which OS you are running. For example, to install the glut package on Ubuntu:
-
-```
-sudo apt-get install freeglut3-dev
+```angular2html
+python tools/generate_tusimple_dataset.py --src_dir path/to/your/unzipped/file
 ```
 
-And on Fedora:
+The script will make the train folder and the test folder. The training 
+samples of origin rgb image, binary label image, instance label image will
+be automatically generated in the training/gt_image, training/gt_binary_image,
+training/gt_instance_image folder.You may check it yourself before start
+the training process.
+
+Pay attention that the script only process the training samples and you 
+need to select several lines from the train.txt to generate your own 
+val.txt file. In order to obtain the test images you can modify the 
+script on your own.
+
+## Recently updates 2020.06.12
+
+Add real-time segmentation model BiseNetV2 as lanenet backbone. You may modify the
+config/tusimple_lanenet.yaml config file to choose the front-end of lanenet model.
+
+New lanenet model trainned based on BiseNetV2 can be found [here](https://www.dropbox.com/sh/0b6r0ljqi76kyg9/AADedYWO3bnx4PhK1BmbJkJKa?dl=0)
+
+[BaiduNetDisk](https://pan.baidu.com/s/1sLLSE1CWksKNxmRIGaQn_A) is available too.
+You can download here https://pan.baidu.com/s/1sLLSE1CWksKNxmRIGaQn_A and extract code is `86sd`
+
+The new model can reach 78 fps in single image inference process.
+
+## Recently updates 2022.05.28
+
+Since lots of user have encountered with a empty mask image problem when they do model inference using their own custom
+data. For example the user [issue](https://github.com/MaybeShewill-CV/lanenet-lane-detection/issues/382) have encountered
+such a problem. I have openend a discussion [here](https://github.com/MaybeShewill-CV/lanenet-lane-detection/discussions/561#discussion-4104802)
+to give some advice to solve those problem.
+
+That problem mainly caused by the dbscan cluster's params was not properly adjusted for custom data. For example if I use
+the default dbscan param settled [here](https://github.com/MaybeShewill-CV/lanenet-lane-detection/blob/5f704c86759b0b65955fb27c85a42f343c1c8c5c/config/tusimple_lanenet.yaml#L90-L93)
+```
+POSTPROCESS:
+    MIN_AREA_THRESHOLD: 100
+    DBSCAN_EPS: 0.35
+    DBSCAN_MIN_SAMPLES: 1000
+```
+The inference result was
+![black_mask](./data/source_image/black_mask.png)
+
+When I enlarge the dbscan DBSCAN_EPS param from 0.35 to 0.5 and reduce DBSCAN_MIN_SAMPLES from 1000 to 250. The infer
+ence result was
+![black_mask_after_adjust](./data/source_image/black_mask_after_adjust.png)
+
+Some more detailed discussion you may find in [discussion module](https://github.com/MaybeShewill-CV/lanenet-lane-detection/discussions/561#discussion-4104802)
+
+The lane fit process in postprocess module was designed for tusimple dataset which means it can not work well on your
+custorm data. So I add an option in testing scripts to disable this feature when processing custom data. It will plot
+mask image directly upon source image
 
 ```
-sudo dnf install freeglut-devel
+python tools/test_lanenet.py --weights_path /PATH/TO/YOUR/CKPT_FILE_PATH 
+--image_path ./data/custom_test_image/test.png --with_lane_fit 0
 ```
 
-### NoSuchDisplayException: Cannot connect to "None"
+Before you test the example custom data remember to adjust dbscan cluster params following instruction above and the test
+result should be like
+![black_mask_after_adjust](./data/source_image/black_mask_after_adjust.png)
 
-If you are connected through SSH, or running the simulator in a Docker image, you will need to use xvfb to create a virtual display in order to run the simulator. See the "Running Headless" subsection below.
+To get better lane detection result on your own data you'd better train a new model on custom dataset rather than
+using the pretrained model directly.
 
-### Running headless
+Hope it helps:)
 
-The simulator uses the OpenGL API to produce graphics. This requires an X11 display to be running, which can be problematic if you are trying to run training code through on SSH, or on a cluster. You can create a virtual display using [Xvfb](https://en.wikipedia.org/wiki/Xvfb). The instructions shown below illustrate this. Note, however, that these instructions are specific to MILA, look further down for instructions on an Ubuntu box:
+## MNN Project
 
+Add tools to convert lanenet tensorflow ckpt model into mnn model and deploy
+the model on mobile device
+
+#### Freeze your tensorflow ckpt model weights file
 ```
-# Reserve a Debian 9 machine with 12GB ram, 2 cores and a GPU on the cluster
-sinter --reservation=res_stretch --mem=12000 -c2 --gres=gpu
-
-# Activate the gym-duckietown Conda environment
-source activate gym-duckietown
-
-cd gym-duckietown
-
-# Add the gym_duckietown package to your Python path
-export PYTHONPATH="${PYTHONPATH}:`pwd`"
-
-# Load the GLX library
-# This has to be done before starting Xvfb
-export LD_LIBRARY_PATH=/Tmp/glx:$LD_LIBRARY_PATH
-
-# Create a virtual display with OpenGL support
-Xvfb :$SLURM_JOB_ID -screen 0 1024x768x24 -ac +extension GLX +render -noreset &> xvfb.log &
-export DISPLAY=:$SLURM_JOB_ID
-
-# You are now ready to train
+cd LANENET_PROJECT_ROOT_DIR
+python mnn_project/freeze_lanenet_model.py -w lanenet.ckpt -s lanenet.pb
 ```
 
-### Running headless and training in a cloud based environment (AWS)
-
-We recommend using the Ubuntu-based [Deep Learning AMI](https://aws.amazon.com/marketplace/pp/B077GCH38C) to provision your server which comes with all the deep learning libraries.
-
+#### Convert pb model into mnn model
 ```
-# Install xvfb
-sudo apt-get install xvfb mesa-utils -y
-
-# Remove the nvidia display drivers (this doesn't remove the CUDA drivers)
-# This is necessary as nvidia display doesn't play well with xvfb
-sudo nvidia-uninstall -y
-
-# Sanity check to make sure you still have CUDA driver and its version
-nvcc --version
-
-# Start xvfb
-Xvfb :1 -screen 0 1024x768x24 -ac +extension GLX +render -noreset &> xvfb.log &
-
-# Export your display id
-export DISPLAY=:1
-
-# Check if your display settings are valid
-glxinfo
-
-# You are now ready to train
+cd MNN_PROJECT_ROOT_DIR/tools/converter/build
+./MNNConver -f TF --modelFile lanenet.pb --MNNModel lanenet.mnn --bizCode MNN
 ```
 
-### Poor performance, low frame rate
+#### Add lanenet source code into MNN project 
 
-It's possible to improve the performance of the simulator by disabling Pyglet error-checking code. Export this environment variable before running the simulator:
+Add lanenet source code into MNN project and modified CMakeList.txt to 
+compile the executable binary file.
 
-```
-export PYGLET_DEBUG_GL=True
-```
+## Status
 
-### RL training doesn't converge
+![Repobeats analytics image](https://repobeats.axiom.co/api/embed/ffa5169a3a4002d4f573b12be173c9382d14b78a.svg "Repobeats analytics image")
 
-Reinforcement learning algorithms are extremely sensitive to hyperparameters. Choosing the
-wrong set of parameters could prevent convergence completely, or lead to unstable performance over
-training. You will likely want to experiment. A learning rate that is too low can lead to no
-learning happening. A learning rate that is too high can lead unstable performance throughout
-training or a suboptimal result.
+## Star History
 
-The reward values are currently rescaled into the [0,1] range, because the RL code in
-`pytorch_rl` doesn't do reward clipping, and deals poorly with large reward values. Also
-note that changing the reward function might mean you also have to retune your choice
-of hyperparameters.
+[![Star History Chart](https://api.star-history.com/svg?repos=MaybeShewill-CV/lanenet-lane-detection&type=Date)](https://star-history.com/#MaybeShewill-CV/lanenet-lane-detection&Date)
 
-### Unknown encoder 'libx264' when using gym.wrappers.Monitor
+## TODO
+- [x] Add a embedding visualization tools to visualize the embedding feature map
+- [x] Add detailed explanation of training the components of lanenet separately.
+- [x] Training the model on different dataset
+- ~~[ ] Adjust the lanenet hnet model and merge the hnet model to the main lanenet model~~
+- ~~[ ] Change the normalization function from BN to GN~~
 
-It is possible to use `gym.wrappers.Monitor` to record videos of the agent performing a task. See [examples here](https://www.programcreek.com/python/example/100947/gym.wrappers.Monitor).
+## Acknowledgement
 
-The libx264 error is due to a problem with the way ffmpeg is installed on some linux distributions. One possible way to circumvent this is to reinstall ffmpeg using conda:
+The lanenet project refers to the following projects:
 
-```
-conda install -c conda-forge ffmpeg
-```
+- [MNN](https://github.com/alibaba/MNN)
+- [SimpleDBSCAN](https://github.com/CallmeNezha/SimpleDBSCAN)
+- [PaddleSeg](https://github.com/PaddlePaddle/PaddleSeg)
 
-Alternatively, screencasting programs such as [Kazam](https://launchpad.net/kazam) can be used to record the graphical output of a single window.
+## Visitor Count
+
+![Visitor Count](https://profile-counter.glitch.me/15725187_lanenet/count.svg)
+
+## Contact
+
+Scan the following QR to disscuss :)
+![qr](./data/source_image/qr.jpg)

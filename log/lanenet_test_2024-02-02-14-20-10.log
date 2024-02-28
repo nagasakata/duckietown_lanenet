@@ -1,0 +1,49 @@
+2024-02-02T14:20:54.995329+0900 INFO Single imgae inference cost time: 0.07325s
+2024-02-02T14:21:35.117666+0900 INFO Single imgae inference cost time: 0.07895s
+2024-02-02T14:22:15.294322+0900 INFO Single imgae inference cost time: 0.07917s
+2024-02-02T14:22:55.308813+0900 INFO Single imgae inference cost time: 0.07913s
+2024-02-02T14:23:34.635963+0900 INFO Single imgae inference cost time: 0.07772s
+2024-02-02T14:24:14.879262+0900 INFO Single imgae inference cost time: 0.07948s
+2024-02-02T14:24:56.282811+0900 INFO Single imgae inference cost time: 0.08183s
+2024-02-02T14:25:37.293789+0900 INFO Single imgae inference cost time: 0.08091s
+2024-02-02T14:26:19.541458+0900 INFO Single imgae inference cost time: 0.08345s
+2024-02-02T14:26:59.990403+0900 INFO Single imgae inference cost time: 0.07987s
+2024-02-02T14:27:40.652067+0900 INFO Single imgae inference cost time: 0.08036s
+2024-02-02T14:28:20.167065+0900 INFO Single imgae inference cost time: 0.07803s
+2024-02-02T14:29:00.697268+0900 INFO Single imgae inference cost time: 0.08005s
+2024-02-02T14:29:44.404991+0900 INFO Single imgae inference cost time: 0.08633s
+2024-02-02T14:30:28.419897+0900 INFO Single imgae inference cost time: 0.08698s
+2024-02-02T14:31:13.290463+0900 INFO Single imgae inference cost time: 0.08864s
+2024-02-02T14:31:56.978426+0900 INFO Single imgae inference cost time: 0.08631s
+2024-02-02T14:32:41.516304+0900 INFO Single imgae inference cost time: 0.08791s
+2024-02-02T14:33:26.331441+0900 INFO Single imgae inference cost time: 0.08848s
+2024-02-02T14:33:26.334540+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-02T14:34:10.698954+0900 INFO Single imgae inference cost time: 0.08757s
+2024-02-02T14:34:10.701402+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-02T14:34:55.384428+0900 INFO Single imgae inference cost time: 0.08818s
+2024-02-02T14:34:55.386236+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-02T14:35:42.246322+0900 INFO Single imgae inference cost time: 0.09258s
+2024-02-02T14:35:42.248883+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-02T14:36:28.617527+0900 INFO Single imgae inference cost time: 0.09147s
+2024-02-02T14:36:28.620380+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-02T14:37:14.896721+0900 INFO Single imgae inference cost time: 0.09130s
+2024-02-02T14:37:14.900992+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-02T14:38:02.102436+0900 INFO Single imgae inference cost time: 0.09321s
+2024-02-02T14:38:02.105089+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-02T14:38:48.922782+0900 INFO Single imgae inference cost time: 0.09231s
+2024-02-02T14:38:48.924949+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-02T14:39:36.598395+0900 INFO Single imgae inference cost time: 0.09411s
+2024-02-02T14:40:23.533699+0900 INFO Single imgae inference cost time: 0.09221s
+2024-02-02T14:41:10.301559+0900 INFO Single imgae inference cost time: 0.09198s
+2024-02-02T14:41:57.833438+0900 INFO Single imgae inference cost time: 0.09357s
+2024-02-02T14:42:48.242199+0900 INFO Single imgae inference cost time: 0.09938s
+2024-02-02T14:43:34.910002+0900 INFO Single imgae inference cost time: 0.09188s
+2024-02-02T14:44:20.877530+0900 INFO Single imgae inference cost time: 0.09042s
+2024-02-02T14:45:06.847099+0900 INFO Single imgae inference cost time: 0.09051s
+2024-02-02T14:45:48.918436+0900 INFO Single imgae inference cost time: 0.08270s
+2024-02-02T14:46:33.431475+0900 INFO Single imgae inference cost time: 0.08759s
+2024-02-02T14:47:18.675804+0900 INFO Single imgae inference cost time: 0.08901s
+2024-02-02T14:48:03.712736+0900 INFO Single imgae inference cost time: 0.08859s
+2024-02-02T14:48:47.398310+0900 INFO Single imgae inference cost time: 0.08580s
+2024-02-02T14:49:31.727650+0900 INFO Single imgae inference cost time: 0.08672s
+2024-02-02T14:50:14.442919+0900 INFO Single imgae inference cost time: 0.08369s

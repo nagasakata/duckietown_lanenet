@@ -14,13 +14,23 @@ import numpy as np
 import pyglet
 from pyglet.window import key
 
+import tensorflow as tf
+
+from tools.try_lanenet import Try_lanenet
+
 from gym_duckietown.envs import DuckietownEnv
+
+from lanenet_model import lanenet
+from lanenet_model import lanenet_postprocess
+from local_utils.config_utils import parse_config_utils
+
+CFG = parse_config_utils.lanenet_cfg
 
 # from experiments.utils import save_img
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--env-name", default=None)
-parser.add_argument("--map-name", default="udem1")
+parser.add_argument("--map-name", default="udem1") ##
 parser.add_argument("--distortion", default=False, action="store_true")
 parser.add_argument("--camera_rand", default=False, action="store_true")
 parser.add_argument("--draw-curve", action="store_true", help="draw the lane following curve")
@@ -32,6 +42,8 @@ parser.add_argument("--seed", default=1, type=int, help="seed")
 args = parser.parse_args()
 
 if args.env_name and args.env_name.find("Duckietown") != -1:
+    env = gym.make(args.env_name)
+else:
     env = DuckietownEnv(
         seed=args.seed,
         map_name=args.map_name,
@@ -43,8 +55,6 @@ if args.env_name and args.env_name.find("Duckietown") != -1:
         camera_rand=args.camera_rand,
         dynamics_rand=args.dynamics_rand,
     )
-else:
-    env = gym.make(args.env_name)
 
 env.reset()
 env.render()
@@ -79,6 +89,7 @@ def on_key_press(symbol, modifiers):
 key_handler = key.KeyStateHandler()
 env.unwrapped.window.push_handlers(key_handler)
 
+lane = Try_lanenet()
 
 def update(dt):
     """
@@ -118,6 +129,10 @@ def update(dt):
         action *= 1.5
 
     obs, reward, done, info = env.step(action)
+    print("start")
+    np.set_printoptions(threshold=np.inf)
+    print(obs)
+    lane.execute_lanenet(raw_image=obs)
     print("step_count = %s, reward=%.3f" % (env.unwrapped.step_count, reward))
 
     if key_handler[key.RETURN]:

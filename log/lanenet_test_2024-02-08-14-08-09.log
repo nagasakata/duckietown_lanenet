@@ -1,0 +1,2 @@
+2024-02-08T14:08:16.907950+0900 INFO Single imgae inference cost time: 0.26721s
+2024-02-08T14:08:16.910328+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.

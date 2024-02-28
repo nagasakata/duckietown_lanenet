@@ -1,0 +1,52 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 4 files
+Detected 1 issues that require attention
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+File: semantic_segmentation_zoo/cnn_basenet.py
+--------------------------------------------------------------------------------
+semantic_segmentation_zoo/cnn_basenet.py:308:15: ERROR: tf.nn.dropout called without arguments, so automatic fix was disabled. tf.nn.dropout has changed the semantics of the second argument.
+================================================================================
+Detailed log follows:
+
+================================================================================
+================================================================================
+Input tree: 'semantic_segmentation_zoo'
+================================================================================
+--------------------------------------------------------------------------------
+Processing file 'semantic_segmentation_zoo/vgg16_based_fcn.py'
+ outputting to 'semantic_segmentation_zoo/vgg16_based_fcn.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'semantic_segmentation_zoo/__init__.py'
+ outputting to 'semantic_segmentation_zoo/__init__.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'semantic_segmentation_zoo/bisenet_v2.py'
+ outputting to 'semantic_segmentation_zoo/bisenet_v2.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'semantic_segmentation_zoo/cnn_basenet.py'
+ outputting to 'semantic_segmentation_zoo/cnn_basenet.py'
+--------------------------------------------------------------------------------
+
+110:21: INFO: Changing tf.contrib.layers.variance_scaling_initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+308:15: ERROR: tf.nn.dropout called without arguments, so automatic fix was disabled. tf.nn.dropout has changed the semantics of the second argument.
+505:19: INFO: Changing keep_prob arg of tf.nn.dropout to rate, and recomputing value.
+
+--------------------------------------------------------------------------------
+

@@ -1,0 +1,6 @@
+2024-01-26T04:00:00.484805+0900 INFO Start reading image and preprocessing
+2024-01-26T04:00:00.488033+0900 INFO Image load complete, cost time: 0.00283s
+2024-01-26T04:00:37.022666+0900 INFO Single imgae inference cost time: 0.06917s
+2024-01-26T04:00:37.050266+0900 INFO Model have fitted 0 lanes
+2024-01-26T04:00:40.673452+0900 INFO Start reading image and preprocessing
+2024-01-26T04:00:40.675076+0900 INFO Image load complete, cost time: 0.00124s

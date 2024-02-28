@@ -1,0 +1,421 @@
+2024-02-09T03:14:24.836214+0900 INFO Single imgae inference cost time: 0.27368s
+2024-02-09T03:14:24.838779+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:24.953880+0900 INFO Single imgae inference cost time: 0.05380s
+2024-02-09T03:14:24.956358+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:25.088522+0900 INFO Single imgae inference cost time: 0.07569s
+2024-02-09T03:14:25.090528+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:25.189257+0900 INFO Single imgae inference cost time: 0.05948s
+2024-02-09T03:14:25.191671+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:25.286815+0900 INFO Single imgae inference cost time: 0.05650s
+2024-02-09T03:14:25.289017+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:25.409192+0900 INFO Single imgae inference cost time: 0.06310s
+2024-02-09T03:14:25.756996+0900 INFO Single imgae inference cost time: 0.05866s
+2024-02-09T03:14:25.867840+0900 INFO Single imgae inference cost time: 0.05527s
+2024-02-09T03:14:25.870678+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:25.989612+0900 INFO Single imgae inference cost time: 0.05663s
+2024-02-09T03:14:26.085464+0900 INFO Single imgae inference cost time: 0.05585s
+2024-02-09T03:14:26.088733+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:26.185374+0900 INFO Single imgae inference cost time: 0.05506s
+2024-02-09T03:14:26.188141+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:26.288001+0900 INFO Single imgae inference cost time: 0.05796s
+2024-02-09T03:14:26.290667+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:26.387422+0900 INFO Single imgae inference cost time: 0.05708s
+2024-02-09T03:14:26.390358+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:26.487791+0900 INFO Single imgae inference cost time: 0.05839s
+2024-02-09T03:14:26.490630+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:26.588811+0900 INFO Single imgae inference cost time: 0.05653s
+2024-02-09T03:14:26.590914+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:26.689288+0900 INFO Single imgae inference cost time: 0.05900s
+2024-02-09T03:14:26.692735+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:26.787439+0900 INFO Single imgae inference cost time: 0.05758s
+2024-02-09T03:14:26.885617+0900 INFO Single imgae inference cost time: 0.05580s
+2024-02-09T03:14:26.985159+0900 INFO Single imgae inference cost time: 0.05476s
+2024-02-09T03:14:27.092305+0900 INFO Single imgae inference cost time: 0.05828s
+2024-02-09T03:14:27.186388+0900 INFO Single imgae inference cost time: 0.05630s
+2024-02-09T03:14:27.188715+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:27.285745+0900 INFO Single imgae inference cost time: 0.05560s
+2024-02-09T03:14:27.287846+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:27.384774+0900 INFO Single imgae inference cost time: 0.05558s
+2024-02-09T03:14:27.386502+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:27.482946+0900 INFO Single imgae inference cost time: 0.05311s
+2024-02-09T03:14:27.484980+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:27.588986+0900 INFO Single imgae inference cost time: 0.05738s
+2024-02-09T03:14:27.591773+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:27.686042+0900 INFO Single imgae inference cost time: 0.05657s
+2024-02-09T03:14:27.688179+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:27.785649+0900 INFO Single imgae inference cost time: 0.05566s
+2024-02-09T03:14:27.787814+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:27.884614+0900 INFO Single imgae inference cost time: 0.05536s
+2024-02-09T03:14:27.887575+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:27.983912+0900 INFO Single imgae inference cost time: 0.05402s
+2024-02-09T03:14:27.985531+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:28.087230+0900 INFO Single imgae inference cost time: 0.05661s
+2024-02-09T03:14:28.090092+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:28.189223+0900 INFO Single imgae inference cost time: 0.05890s
+2024-02-09T03:14:28.190924+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:28.287749+0900 INFO Single imgae inference cost time: 0.05725s
+2024-02-09T03:14:28.289409+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:28.387130+0900 INFO Single imgae inference cost time: 0.05697s
+2024-02-09T03:14:28.388943+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:28.486947+0900 INFO Single imgae inference cost time: 0.05704s
+2024-02-09T03:14:28.488700+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:28.587018+0900 INFO Single imgae inference cost time: 0.05477s
+2024-02-09T03:14:28.589545+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:28.685650+0900 INFO Single imgae inference cost time: 0.05572s
+2024-02-09T03:14:28.687318+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:28.782731+0900 INFO Single imgae inference cost time: 0.05400s
+2024-02-09T03:14:28.784395+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:28.868488+0900 INFO Single imgae inference cost time: 0.05459s
+2024-02-09T03:14:28.870100+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:28.969309+0900 INFO Single imgae inference cost time: 0.05613s
+2024-02-09T03:14:28.972288+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:29.068360+0900 INFO Single imgae inference cost time: 0.05515s
+2024-02-09T03:14:29.071006+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:29.168142+0900 INFO Single imgae inference cost time: 0.05519s
+2024-02-09T03:14:29.171076+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:29.269681+0900 INFO Single imgae inference cost time: 0.05558s
+2024-02-09T03:14:29.272017+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:29.371847+0900 INFO Single imgae inference cost time: 0.05705s
+2024-02-09T03:14:29.373914+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:29.468490+0900 INFO Single imgae inference cost time: 0.05534s
+2024-02-09T03:14:29.470936+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:29.567513+0900 INFO Single imgae inference cost time: 0.05385s
+2024-02-09T03:14:29.569284+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:29.670413+0900 INFO Single imgae inference cost time: 0.05742s
+2024-02-09T03:14:29.672080+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:29.769473+0900 INFO Single imgae inference cost time: 0.05582s
+2024-02-09T03:14:29.771162+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:29.871835+0900 INFO Single imgae inference cost time: 0.05661s
+2024-02-09T03:14:29.873589+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:29.969321+0900 INFO Single imgae inference cost time: 0.05605s
+2024-02-09T03:14:29.971724+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:30.073923+0900 INFO Single imgae inference cost time: 0.06014s
+2024-02-09T03:14:30.075640+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:30.172085+0900 INFO Single imgae inference cost time: 0.05844s
+2024-02-09T03:14:30.173787+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:30.274761+0900 INFO Single imgae inference cost time: 0.06123s
+2024-02-09T03:14:30.276460+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:30.371186+0900 INFO Single imgae inference cost time: 0.05591s
+2024-02-09T03:14:30.373303+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:30.467639+0900 INFO Single imgae inference cost time: 0.05440s
+2024-02-09T03:14:30.469743+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:30.569850+0900 INFO Single imgae inference cost time: 0.05637s
+2024-02-09T03:14:30.571557+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:30.665793+0900 INFO Single imgae inference cost time: 0.05247s
+2024-02-09T03:14:30.667881+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:30.770785+0900 INFO Single imgae inference cost time: 0.05736s
+2024-02-09T03:14:30.772462+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:30.870490+0900 INFO Single imgae inference cost time: 0.05680s
+2024-02-09T03:14:30.872532+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:30.970057+0900 INFO Single imgae inference cost time: 0.05659s
+2024-02-09T03:14:30.971871+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:31.072696+0900 INFO Single imgae inference cost time: 0.06032s
+2024-02-09T03:14:31.074689+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:31.169118+0900 INFO Single imgae inference cost time: 0.05535s
+2024-02-09T03:14:31.171277+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:31.269412+0900 INFO Single imgae inference cost time: 0.05637s
+2024-02-09T03:14:31.271919+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:31.371765+0900 INFO Single imgae inference cost time: 0.05906s
+2024-02-09T03:14:31.374996+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:31.475319+0900 INFO Single imgae inference cost time: 0.06129s
+2024-02-09T03:14:31.476927+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:31.573029+0900 INFO Single imgae inference cost time: 0.05959s
+2024-02-09T03:14:31.574701+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:31.671239+0900 INFO Single imgae inference cost time: 0.05764s
+2024-02-09T03:14:31.672854+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:31.769789+0900 INFO Single imgae inference cost time: 0.05683s
+2024-02-09T03:14:31.771834+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:31.866620+0900 INFO Single imgae inference cost time: 0.05402s
+2024-02-09T03:14:31.868761+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:31.957776+0900 INFO Single imgae inference cost time: 0.06086s
+2024-02-09T03:14:31.959397+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:32.053916+0900 INFO Single imgae inference cost time: 0.05647s
+2024-02-09T03:14:32.055607+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:32.151794+0900 INFO Single imgae inference cost time: 0.05495s
+2024-02-09T03:14:32.153842+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:32.253246+0900 INFO Single imgae inference cost time: 0.05695s
+2024-02-09T03:14:32.255330+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:32.352648+0900 INFO Single imgae inference cost time: 0.05637s
+2024-02-09T03:14:32.355198+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:32.449836+0900 INFO Single imgae inference cost time: 0.05452s
+2024-02-09T03:14:32.451545+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:32.536821+0900 INFO Single imgae inference cost time: 0.05669s
+2024-02-09T03:14:32.538590+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:32.635480+0900 INFO Single imgae inference cost time: 0.05522s
+2024-02-09T03:14:32.637175+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:32.736288+0900 INFO Single imgae inference cost time: 0.05710s
+2024-02-09T03:14:32.738074+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:32.838376+0900 INFO Single imgae inference cost time: 0.05843s
+2024-02-09T03:14:32.840997+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:32.939486+0900 INFO Single imgae inference cost time: 0.05943s
+2024-02-09T03:14:33.041009+0900 INFO Single imgae inference cost time: 0.06039s
+2024-02-09T03:14:33.043189+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:33.139439+0900 INFO Single imgae inference cost time: 0.05874s
+2024-02-09T03:14:33.142718+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:33.239310+0900 INFO Single imgae inference cost time: 0.05854s
+2024-02-09T03:14:33.241788+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:33.339421+0900 INFO Single imgae inference cost time: 0.05923s
+2024-02-09T03:14:33.341844+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:33.439719+0900 INFO Single imgae inference cost time: 0.05981s
+2024-02-09T03:14:33.441712+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:33.542390+0900 INFO Single imgae inference cost time: 0.05903s
+2024-02-09T03:14:33.544468+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:33.643011+0900 INFO Single imgae inference cost time: 0.06224s
+2024-02-09T03:14:33.644754+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:33.737217+0900 INFO Single imgae inference cost time: 0.05644s
+2024-02-09T03:14:33.739391+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:33.838081+0900 INFO Single imgae inference cost time: 0.05740s
+2024-02-09T03:14:33.841306+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:33.938386+0900 INFO Single imgae inference cost time: 0.05764s
+2024-02-09T03:14:33.940785+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:34.039817+0900 INFO Single imgae inference cost time: 0.06053s
+2024-02-09T03:14:34.042559+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:34.208927+0900 INFO Single imgae inference cost time: 0.05867s
+2024-02-09T03:14:34.211416+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:34.305786+0900 INFO Single imgae inference cost time: 0.05954s
+2024-02-09T03:14:34.307864+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:34.406230+0900 INFO Single imgae inference cost time: 0.05906s
+2024-02-09T03:14:34.408249+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:34.510115+0900 INFO Single imgae inference cost time: 0.06311s
+2024-02-09T03:14:34.511761+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:34.608631+0900 INFO Single imgae inference cost time: 0.06061s
+2024-02-09T03:14:34.610732+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:34.703984+0900 INFO Single imgae inference cost time: 0.05762s
+2024-02-09T03:14:34.706097+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:34.930412+0900 INFO Single imgae inference cost time: 0.06377s
+2024-02-09T03:14:34.932481+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:35.024102+0900 INFO Single imgae inference cost time: 0.05947s
+2024-02-09T03:14:35.026117+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:35.124623+0900 INFO Single imgae inference cost time: 0.06072s
+2024-02-09T03:14:35.126696+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:35.224774+0900 INFO Single imgae inference cost time: 0.06080s
+2024-02-09T03:14:35.226525+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:35.322351+0900 INFO Single imgae inference cost time: 0.05859s
+2024-02-09T03:14:35.324776+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:35.423049+0900 INFO Single imgae inference cost time: 0.05971s
+2024-02-09T03:14:35.426048+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:35.528783+0900 INFO Single imgae inference cost time: 0.06447s
+2024-02-09T03:14:35.531613+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:35.621888+0900 INFO Single imgae inference cost time: 0.05789s
+2024-02-09T03:14:35.624612+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:35.723223+0900 INFO Single imgae inference cost time: 0.05944s
+2024-02-09T03:14:35.725639+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:35.826588+0900 INFO Single imgae inference cost time: 0.06364s
+2024-02-09T03:14:35.829290+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:35.923073+0900 INFO Single imgae inference cost time: 0.05970s
+2024-02-09T03:14:35.925888+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:36.022981+0900 INFO Single imgae inference cost time: 0.05853s
+2024-02-09T03:14:36.025426+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:36.118041+0900 INFO Single imgae inference cost time: 0.05387s
+2024-02-09T03:14:36.121891+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:36.221009+0900 INFO Single imgae inference cost time: 0.05904s
+2024-02-09T03:14:36.223934+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:36.329107+0900 INFO Single imgae inference cost time: 0.06197s
+2024-02-09T03:14:36.332183+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:36.423168+0900 INFO Single imgae inference cost time: 0.05937s
+2024-02-09T03:14:36.425857+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:36.523332+0900 INFO Single imgae inference cost time: 0.05959s
+2024-02-09T03:14:36.526127+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:36.623457+0900 INFO Single imgae inference cost time: 0.05988s
+2024-02-09T03:14:36.626268+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:36.720583+0900 INFO Single imgae inference cost time: 0.05660s
+2024-02-09T03:14:36.722961+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:36.820516+0900 INFO Single imgae inference cost time: 0.05671s
+2024-02-09T03:14:36.822867+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:36.924339+0900 INFO Single imgae inference cost time: 0.06160s
+2024-02-09T03:14:36.926834+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:37.021218+0900 INFO Single imgae inference cost time: 0.05818s
+2024-02-09T03:14:37.023608+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:37.122856+0900 INFO Single imgae inference cost time: 0.05955s
+2024-02-09T03:14:37.125171+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:37.224168+0900 INFO Single imgae inference cost time: 0.06052s
+2024-02-09T03:14:37.226180+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:37.323915+0900 INFO Single imgae inference cost time: 0.05882s
+2024-02-09T03:14:37.325817+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:37.421121+0900 INFO Single imgae inference cost time: 0.05748s
+2024-02-09T03:14:37.424212+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:37.521374+0900 INFO Single imgae inference cost time: 0.05822s
+2024-02-09T03:14:37.764070+0900 INFO Single imgae inference cost time: 0.06639s
+2024-02-09T03:14:37.873897+0900 INFO Single imgae inference cost time: 0.05979s
+2024-02-09T03:14:37.991970+0900 INFO Single imgae inference cost time: 0.06138s
+2024-02-09T03:14:37.994023+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:38.092808+0900 INFO Single imgae inference cost time: 0.06129s
+2024-02-09T03:14:38.095487+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:38.189421+0900 INFO Single imgae inference cost time: 0.05944s
+2024-02-09T03:14:38.191396+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:38.286420+0900 INFO Single imgae inference cost time: 0.05639s
+2024-02-09T03:14:38.288925+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:38.390712+0900 INFO Single imgae inference cost time: 0.06098s
+2024-02-09T03:14:38.392734+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:38.486556+0900 INFO Single imgae inference cost time: 0.05714s
+2024-02-09T03:14:38.488342+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:38.588982+0900 INFO Single imgae inference cost time: 0.05963s
+2024-02-09T03:14:38.591010+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:38.687118+0900 INFO Single imgae inference cost time: 0.05783s
+2024-02-09T03:14:38.689220+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:38.787102+0900 INFO Single imgae inference cost time: 0.05740s
+2024-02-09T03:14:38.789137+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:38.888567+0900 INFO Single imgae inference cost time: 0.05733s
+2024-02-09T03:14:38.890226+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:38.986346+0900 INFO Single imgae inference cost time: 0.05627s
+2024-02-09T03:14:38.988089+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:39.090348+0900 INFO Single imgae inference cost time: 0.05849s
+2024-02-09T03:14:39.092809+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:39.189838+0900 INFO Single imgae inference cost time: 0.05989s
+2024-02-09T03:14:39.192537+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:39.287107+0900 INFO Single imgae inference cost time: 0.05774s
+2024-02-09T03:14:39.289176+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:39.390376+0900 INFO Single imgae inference cost time: 0.05935s
+2024-02-09T03:14:39.393157+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:39.489362+0900 INFO Single imgae inference cost time: 0.05934s
+2024-02-09T03:14:39.493069+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:39.586689+0900 INFO Single imgae inference cost time: 0.05664s
+2024-02-09T03:14:39.589474+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:39.686276+0900 INFO Single imgae inference cost time: 0.05683s
+2024-02-09T03:14:39.689151+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:39.784856+0900 INFO Single imgae inference cost time: 0.05420s
+2024-02-09T03:14:39.788225+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:39.906835+0900 INFO Single imgae inference cost time: 0.06196s
+2024-02-09T03:14:39.909516+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:40.006124+0900 INFO Single imgae inference cost time: 0.05905s
+2024-02-09T03:14:40.008948+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:40.106402+0900 INFO Single imgae inference cost time: 0.05973s
+2024-02-09T03:14:40.109440+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:40.205076+0900 INFO Single imgae inference cost time: 0.05757s
+2024-02-09T03:14:40.207796+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:40.306881+0900 INFO Single imgae inference cost time: 0.05933s
+2024-02-09T03:14:40.310646+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:40.404362+0900 INFO Single imgae inference cost time: 0.05823s
+2024-02-09T03:14:40.407142+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:40.502773+0900 INFO Single imgae inference cost time: 0.05695s
+2024-02-09T03:14:40.506654+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:40.604653+0900 INFO Single imgae inference cost time: 0.05788s
+2024-02-09T03:14:40.607381+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:40.705866+0900 INFO Single imgae inference cost time: 0.05923s
+2024-02-09T03:14:40.708593+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:40.805917+0900 INFO Single imgae inference cost time: 0.05804s
+2024-02-09T03:14:40.808723+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:40.906492+0900 INFO Single imgae inference cost time: 0.06006s
+2024-02-09T03:14:40.909166+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:41.007851+0900 INFO Single imgae inference cost time: 0.06078s
+2024-02-09T03:14:41.010586+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:41.105718+0900 INFO Single imgae inference cost time: 0.05831s
+2024-02-09T03:14:41.108409+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:41.203381+0900 INFO Single imgae inference cost time: 0.05637s
+2024-02-09T03:14:41.206195+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:41.301775+0900 INFO Single imgae inference cost time: 0.05504s
+2024-02-09T03:14:41.404758+0900 INFO Single imgae inference cost time: 0.05649s
+2024-02-09T03:14:41.510104+0900 INFO Single imgae inference cost time: 0.06303s
+2024-02-09T03:14:41.607047+0900 INFO Single imgae inference cost time: 0.06048s
+2024-02-09T03:14:41.754019+0900 INFO Single imgae inference cost time: 0.05708s
+2024-02-09T03:14:42.064316+0900 INFO Single imgae inference cost time: 0.06068s
+2024-02-09T03:14:42.174403+0900 INFO Single imgae inference cost time: 0.06087s
+2024-02-09T03:14:42.273427+0900 INFO Single imgae inference cost time: 0.05886s
+2024-02-09T03:14:42.276109+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:42.375859+0900 INFO Single imgae inference cost time: 0.06150s
+2024-02-09T03:14:42.378644+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:42.472057+0900 INFO Single imgae inference cost time: 0.05822s
+2024-02-09T03:14:42.570662+0900 INFO Single imgae inference cost time: 0.05666s
+2024-02-09T03:14:42.573360+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:42.674637+0900 INFO Single imgae inference cost time: 0.06109s
+2024-02-09T03:14:42.677335+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:42.770865+0900 INFO Single imgae inference cost time: 0.05620s
+2024-02-09T03:14:42.773650+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:42.874661+0900 INFO Single imgae inference cost time: 0.06173s
+2024-02-09T03:14:42.877354+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:42.977436+0900 INFO Single imgae inference cost time: 0.06291s
+2024-02-09T03:14:42.980177+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:43.074744+0900 INFO Single imgae inference cost time: 0.06095s
+2024-02-09T03:14:43.077460+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:43.176326+0900 INFO Single imgae inference cost time: 0.06185s
+2024-02-09T03:14:43.179097+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:43.275928+0900 INFO Single imgae inference cost time: 0.06159s
+2024-02-09T03:14:43.278675+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:43.373388+0900 INFO Single imgae inference cost time: 0.05872s
+2024-02-09T03:14:43.376115+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:43.474542+0900 INFO Single imgae inference cost time: 0.06039s
+2024-02-09T03:14:43.477244+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:43.575833+0900 INFO Single imgae inference cost time: 0.06135s
+2024-02-09T03:14:43.578634+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:43.673403+0900 INFO Single imgae inference cost time: 0.05959s
+2024-02-09T03:14:43.677286+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:43.891823+0900 INFO Single imgae inference cost time: 0.06286s
+2024-02-09T03:14:44.106910+0900 INFO Single imgae inference cost time: 0.06109s
+2024-02-09T03:14:44.225011+0900 INFO Single imgae inference cost time: 0.06000s
+2024-02-09T03:14:44.322729+0900 INFO Single imgae inference cost time: 0.05912s
+2024-02-09T03:14:44.420558+0900 INFO Single imgae inference cost time: 0.05646s
+2024-02-09T03:14:44.521482+0900 INFO Single imgae inference cost time: 0.05753s
+2024-02-09T03:14:44.722321+0900 INFO Single imgae inference cost time: 0.05799s
+2024-02-09T03:14:44.946478+0900 INFO Single imgae inference cost time: 0.06581s
+2024-02-09T03:14:44.949444+0900 ERROR Found array with 0 sample(s) (shape=(0, 4)) while a minimum of 1 is required by StandardScaler.
+2024-02-09T03:14:45.040244+0900 INFO Single imgae inference cost time: 0.05933s
+2024-02-09T03:14:45.130664+0900 INFO Single imgae inference cost time: 0.05696s
+2024-02-09T03:14:45.236932+0900 INFO Single imgae inference cost time: 0.05788s
+2024-02-09T03:14:45.448394+0900 INFO Single imgae inference cost time: 0.06543s
+2024-02-09T03:14:45.664277+0900 INFO Single imgae inference cost time: 0.06683s
+2024-02-09T03:14:45.773303+0900 INFO Single imgae inference cost time: 0.06136s
+2024-02-09T03:14:45.875682+0900 INFO Single imgae inference cost time: 0.06221s
+2024-02-09T03:14:45.971108+0900 INFO Single imgae inference cost time: 0.05757s
+2024-02-09T03:14:46.070640+0900 INFO Single imgae inference cost time: 0.05707s
+2024-02-09T03:14:46.170137+0900 INFO Single imgae inference cost time: 0.05638s
+2024-02-09T03:14:46.269319+0900 INFO Single imgae inference cost time: 0.05553s
+2024-02-09T03:14:46.372604+0900 INFO Single imgae inference cost time: 0.05993s
+2024-02-09T03:14:46.471856+0900 INFO Single imgae inference cost time: 0.05865s
+2024-02-09T03:14:46.571027+0900 INFO Single imgae inference cost time: 0.05739s
+2024-02-09T03:14:46.673337+0900 INFO Single imgae inference cost time: 0.05890s
+2024-02-09T03:14:46.774964+0900 INFO Single imgae inference cost time: 0.05983s
+2024-02-09T03:14:46.872395+0900 INFO Single imgae inference cost time: 0.05970s
+2024-02-09T03:14:47.107924+0900 INFO Single imgae inference cost time: 0.06226s
+2024-02-09T03:14:47.325844+0900 INFO Single imgae inference cost time: 0.05996s
+2024-02-09T03:14:47.440568+0900 INFO Single imgae inference cost time: 0.05877s
+2024-02-09T03:14:47.536645+0900 INFO Single imgae inference cost time: 0.05621s
+2024-02-09T03:14:47.689947+0900 INFO Single imgae inference cost time: 0.05917s
+2024-02-09T03:14:47.912679+0900 INFO Single imgae inference cost time: 0.06491s
+2024-02-09T03:14:48.017880+0900 INFO Single imgae inference cost time: 0.05508s
+2024-02-09T03:14:48.119700+0900 INFO Single imgae inference cost time: 0.05660s
+2024-02-09T03:14:48.219531+0900 INFO Single imgae inference cost time: 0.05669s
+2024-02-09T03:14:48.319182+0900 INFO Single imgae inference cost time: 0.05582s
+2024-02-09T03:14:48.421799+0900 INFO Single imgae inference cost time: 0.05809s
+2024-02-09T03:14:48.519697+0900 INFO Single imgae inference cost time: 0.05612s
+2024-02-09T03:14:48.618394+0900 INFO Single imgae inference cost time: 0.05475s
+2024-02-09T03:14:48.719426+0900 INFO Single imgae inference cost time: 0.05601s
+2024-02-09T03:14:48.820843+0900 INFO Single imgae inference cost time: 0.05819s
+2024-02-09T03:14:48.919787+0900 INFO Single imgae inference cost time: 0.05605s
+2024-02-09T03:14:49.021720+0900 INFO Single imgae inference cost time: 0.05922s
+2024-02-09T03:14:49.117874+0900 INFO Single imgae inference cost time: 0.05478s
+2024-02-09T03:14:49.219891+0900 INFO Single imgae inference cost time: 0.05668s
+2024-02-09T03:14:49.319377+0900 INFO Single imgae inference cost time: 0.05648s
+2024-02-09T03:14:49.419543+0900 INFO Single imgae inference cost time: 0.05664s
+2024-02-09T03:14:49.606714+0900 INFO Single imgae inference cost time: 0.05823s
+2024-02-09T03:14:49.827314+0900 INFO Single imgae inference cost time: 0.06295s
+2024-02-09T03:14:49.921908+0900 INFO Single imgae inference cost time: 0.05863s
+2024-02-09T03:14:50.020338+0900 INFO Single imgae inference cost time: 0.05760s
+2024-02-09T03:14:50.123221+0900 INFO Single imgae inference cost time: 0.06000s
+2024-02-09T03:14:50.227419+0900 INFO Single imgae inference cost time: 0.05891s
+2024-02-09T03:14:50.318637+0900 INFO Single imgae inference cost time: 0.05541s
+2024-02-09T03:14:50.418001+0900 INFO Single imgae inference cost time: 0.05516s
+2024-02-09T03:14:50.521128+0900 INFO Single imgae inference cost time: 0.05778s
+2024-02-09T03:14:50.621800+0900 INFO Single imgae inference cost time: 0.05833s
+2024-02-09T03:14:50.723013+0900 INFO Single imgae inference cost time: 0.05997s
+2024-02-09T03:14:50.842439+0900 INFO Single imgae inference cost time: 0.05976s
+2024-02-09T03:14:50.953464+0900 INFO Single imgae inference cost time: 0.07363s
+2024-02-09T03:14:51.057086+0900 INFO Single imgae inference cost time: 0.06022s
+2024-02-09T03:14:51.156112+0900 INFO Single imgae inference cost time: 0.05913s
+2024-02-09T03:14:51.253543+0900 INFO Single imgae inference cost time: 0.05657s
+2024-02-09T03:14:51.353703+0900 INFO Single imgae inference cost time: 0.05686s
+2024-02-09T03:14:51.454335+0900 INFO Single imgae inference cost time: 0.05797s
+2024-02-09T03:14:51.550489+0900 INFO Single imgae inference cost time: 0.05400s
+2024-02-09T03:14:51.653333+0900 INFO Single imgae inference cost time: 0.05643s
+2024-02-09T03:14:51.753205+0900 INFO Single imgae inference cost time: 0.05665s
+2024-02-09T03:14:51.854084+0900 INFO Single imgae inference cost time: 0.05775s
+2024-02-09T03:14:51.958332+0900 INFO Single imgae inference cost time: 0.06127s
+2024-02-09T03:14:52.052503+0900 INFO Single imgae inference cost time: 0.05628s
+2024-02-09T03:14:52.154347+0900 INFO Single imgae inference cost time: 0.05783s
+2024-02-09T03:14:52.251179+0900 INFO Single imgae inference cost time: 0.05403s
+2024-02-09T03:14:52.348657+0900 INFO Single imgae inference cost time: 0.05301s
+2024-02-09T03:14:52.460464+0900 INFO Single imgae inference cost time: 0.06337s
+2024-02-09T03:14:52.545571+0900 INFO Single imgae inference cost time: 0.05374s
+2024-02-09T03:14:52.637913+0900 INFO Single imgae inference cost time: 0.05747s
+2024-02-09T03:14:52.724004+0900 INFO Single imgae inference cost time: 0.05445s
+2024-02-09T03:14:52.817188+0900 INFO Single imgae inference cost time: 0.05347s
+2024-02-09T03:14:52.921452+0900 INFO Single imgae inference cost time: 0.05798s
